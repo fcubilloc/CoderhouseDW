@@ -10,7 +10,12 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Logo<span>.</span></a>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+    
+        <a href="#" class="logo">flower<span>.</span></a>
+    
         <nav class="navbar">
                 <a href="./index.html">Inicio</a>
                 <a href="./services.html">Servicios</a>
@@ -18,16 +23,16 @@
                 <a href="./contact.html">Contacto</a>
                 <a href="./faqs.html">FAQs</a>
         </nav>
-        
+    
         <div class="icons">
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-shopping-cart"></a>
             <a href="#" class="fas fa-user"></a>
-        </div>  
-        
+        </div>
+    
     </header>
 
-    <main class="contact" id="contact">
+    <section class="contact" id="contact">
 
         <h1 class="heading"> <span> contact </span> us </h1>
     
@@ -37,25 +42,59 @@
                 <input type="text" placeholder="name" class="box">
                 <input type="email" placeholder="email" class="box">
                 <input type="number" placeholder="number" class="box">
-                <textarea name="" class="box" placeholder="message" id="" cols="40" rows="20"></textarea>
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
                 <input type="submit" value="send message" class="btn">
             </form>
     
             <div class="image">
-                <img src="images/contact-img.svg" alt="">
+                <img src="/images/contact-img.svg" alt="">
             </div>
     
         </div>
     
-    </main>
+    </section>
 
-    <footer class="footer box-container icons-container">
-        <span class="box-container credit"><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5></span>
-        <div class="box-container icons">
-          <a href="#"><img src="./img/icons/wsp.png" alt="whatsapp"></a>
-          <a href="#"><img src="./img/icons/instagram.png" alt="instagram"></a>
-          <a href="#"><img src="./img/icons/twitter.png" alt="twitter"></a>
-        </div> 
-      </footer>
+    <footer class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
+    
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Argentina</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+549-11456789</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">CABA, Argentina - 400104</a>
+                <img src="/images/payment.png" alt="">
+            </div>
+    
+        </div>
+    
+    </footer>
+    
+
+    <script src="/js/script.js"></script>
 </body>
 </html>

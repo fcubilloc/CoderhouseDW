@@ -21,6 +21,8 @@ html{
 
 section{
     padding:2rem 9%;
+    margin: auto;
+    margin-top: 70px;
 }
 
 .heading{
@@ -117,37 +119,28 @@ header .fa-bars{
     background-position: center;
 }
 
-.boton {
-    display: flex;
-    margin-left: auto;
-    background-color:#e84393;
-    padding: 25px;
-    border-radius: 25%;
-    cursor: pointer;
-}
-
-
 .home .content{
     max-width: 50rem;
 }
 
-.home .content .title{
-    font-size: 3rem;
+.home .content h3{
+    font-size: 6rem;
     color:#333;
 }
 
-.home .content .subtitle{
-    font-size: 1.5rem;
+.home .content span{
+    font-size: 3.5rem;
     color:var(--pink);
+    padding:1rem 0;
+    line-height: 1.5;
 }
-
 
 .home .content p{
     font-size: 1.5rem;
     color:#999;
     padding:1rem 0;
     line-height: 1.5;
-} 
+}
 
 .about .row{
     display: flex;
@@ -205,7 +198,7 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-top: 15rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
@@ -385,13 +378,13 @@ header .fa-bars{
     color:#999;
 }
 
-
 .contact{
     display: flex;
     flex-direction: column-reverse;
     margin-top: 100px;
     padding: 25px;
 }
+
 
 .contact .row{
     display: flex;
@@ -433,16 +426,36 @@ header .fa-bars{
 }
 
 .contact .row form textarea{
-    height: 19rem;
+    height: 15rem;
     resize: none;
+}
+
+.faqs-container{    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 25px 100px;
+    
+}
+.faqs-container span{
+    font-size: 24px;
+    color:var(--pink);
+    padding: 5px;;
+    margin-top: 25px;
+}
+.faqs-container p{
+    font-size: 2rem;
+    color: #333;
+    padding:0;
+    line-height: 1.5;
 }
 
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
     gap:1.5rem;
+    padding: 20px;
 }
 
 .footer .box-container .box{
@@ -458,7 +471,7 @@ header .fa-bars{
 .footer .box-container .box a{
     display: block;
     color:#666;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding:1rem 0;
 }
 
@@ -470,54 +483,6 @@ header .fa-bars{
 .footer .box-container .box  img{
     margin-top: 1rem;
 }
-
-.footer .credit{
-    text-align: center;
-    padding:1.5rem;
-    margin-top: 1.5rem;
-    padding-top: 2.5rem;
-    font-size: 1.4rem;
-    color:#333;
-    border-top: .1rem solid rgba(0,0,0,.1);
-    padding-bottom: 9rem;
-}
-
-.footer .credit span{
-    color:var(--pink);
-}
-
-
-.faqs-container{    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    margin: 25px 100px;
-    
-
-} 
-
-.faqs-container span{
-    font-size: 24px;
-    color:var(--pink);
-    padding: 5px;;
-    margin-top: 25px;
-} 
-
-.faqs-container p{
-    font-size: 2rem;
-    color: #333;
-    padding:0;
-    line-height: 1.5;
-} 
-
-
-
-
-
-
-
-
 
 
 
